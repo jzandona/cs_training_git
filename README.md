@@ -45,6 +45,15 @@ Try using:
 ## Upgrading panther_analysis_tool
 `pip install --upgrade panther_analysis_tool`
 
+## Vim
+`i - insert before the cursor`
+
+`escape - exit insert mode`
+
+`:wq - save and quit`
+
+[Vim Cheatsheet](https://vim.rtorr.com/)
+
 # 3rd Part (Take Home)
 
 ## Push a change to this repository. 
