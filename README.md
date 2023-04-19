@@ -21,6 +21,12 @@
 ### Update Detection
 `vim rules/crowdstrike_rules/crowdstrike_dns_request.py`
 
+### Update Rule ID
+`vim rules/crowdstrike_rules/crowdstrike_dns_request.yml`
+
+### Add update files to tracking
+`git add .`
+
 ### First Commit 
 `git commit -m “my first message”`
 
@@ -56,6 +62,16 @@ Try using:
 `escape - exit insert mode`
 
 `:wq - save and quit`
+
+If you dont have arrow keys
+`h - move cursor left`
+
+`j - move cursor down`
+
+`k - move cursor up`
+
+`l - move cursor right`
+
 
 [Vim Cheatsheet](https://vim.rtorr.com/)
 
