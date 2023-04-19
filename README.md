@@ -7,8 +7,13 @@
 ### Clone Repository
 `git clone https://github.com/jzandona/cs_training_git`
 
-### Try Commit
-`git commit`
+`cd cs_training_git`
+
+### Try Commit and pull
+`git commit` 
+
+`git pull`
+
 
 ### Change Directory
 `cd cs_training_git` 
