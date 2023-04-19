@@ -1,51 +1,51 @@
 # cs_training_git
 
 # 1st Part
-## Setup your local directory
+### Setup your local directory
 `mkdir github && cd github`
 
-## Clone Repository
+### Clone Repository
 `git clone https://github.com/jzandona/cs_training_git`
 
-## Try Commit
+### Try Commit
 `git commit`
 
-## Change Directory
+### Change Directory
 `cd cs_training_git` 
 
-## Update Detection
+### Update Detection
 `vim rules/crowdstrike_rules/crowdstrike_dns_request.py`
 
-## First Commit 
+### First Commit 
 `git commit -m “my first message”`
 
 # 2nd part
-## Pull latest
+### Pull latest
 `git pull`
 
-## Update detection
+### Update detection
 `vim rules/crowdstrike_rules/crowdstrike_detection_passthrough.yml`
 
-## Second Commit
+### Second Commit
 `git commit -m “my second message”`
 
-## Check Connection 
+### Check Connection 
 `panther_analysis_tool check-connection --api-token ADD_TOKEN --api-host https://api.papaya-junior.runpanther.net/public/graphql`
 
-## Upload Detection
-
+### Upload Detection
+`panther_analysis_tool upload --api-token ADD_TOKEN --api-host https://api.papaya-junior.runpanther.net/public/graphql`
 
 # Troubleshooting
-## panther_analysis_tool not found
+### panther_analysis_tool not found
 If error says `command not found: panther_analysis_tool`
 
 Try using:
 `export PATH="/Users/$LOGNAME/Library/Python/3.9/bin/:$PATH"` 
 
-## Upgrading panther_analysis_tool
+### Upgrading panther_analysis_tool
 `pip install --upgrade panther_analysis_tool`
 
-## Vim
+### Vim
 `i - insert before the cursor`
 
 `escape - exit insert mode`
@@ -54,9 +54,9 @@ Try using:
 
 [Vim Cheatsheet](https://vim.rtorr.com/)
 
-# 3rd Part (Take Home)
+# 3rd Part (Take Home Challenge)
 
-## Push a change to this repository. 
+### Push a change to this repository. 
 Hint: Requires Github Account
 1. You will need to create a branch and make your changes within the branch
 
