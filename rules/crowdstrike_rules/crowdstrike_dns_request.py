@@ -4,7 +4,7 @@ from panther_base_helpers import (
 )
 
 # baddomain.com is present for testing purposes. Add domains you wish to be alerted on to this list
-DENYLIST = ["baddomain.com","slickdeals.net"]
+DENYLIST = ["baddomain.com","slickdeals.net3"]
 
 
 def rule(event):
