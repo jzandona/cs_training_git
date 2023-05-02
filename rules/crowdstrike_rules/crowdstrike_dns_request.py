@@ -4,7 +4,11 @@ from panther_base_helpers import (
 )
 
 # baddomain.com is present for testing purposes. Add domains you wish to be alerted on to this list
+<<<<<<< HEAD
 DENYLIST = ["baddomain.com","slickdeals.net7"]
+=======
+DENYLIST = ["baddomain.com","slickdeals.net6"]
+>>>>>>> 8890c1f (6)
 
 
 def rule(event):
