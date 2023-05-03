@@ -1,7 +1,7 @@
 AnalysisType: rule
 Filename: crowdstrike_dns_request.py
-RuleID: "Crowdstrike.DNS.Request.INITIALS"
-DisplayName: "DNS request to denylisted domain - INITIALS"
+RuleID: "Crowdstrike.DNS.Request.JAZ"
+DisplayName: "DNS request to denylisted domain - JAZ"
 Enabled: false
 LogTypes:
   - Crowdstrike.DNSRequest
