@@ -5,9 +5,7 @@
 `mkdir github && cd github`
 
 ### Clone Repository
-`git clone https://github.com/jzandona/cs_training_git`
-
-`cd cs_training_git`
+`git clone https://github.com/jzandona/cs_training_git` && `cd cs_training_git`
 
 ### Try pull
 `git pull`
