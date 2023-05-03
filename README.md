@@ -41,10 +41,10 @@
 `git commit -m “my second message”`
 
 ### Check Connection 
-`panther_analysis_tool check-connection --api-token ADD_TOKEN --api-host https://api.papaya-junior.runpanther.net/public/graphql`
+`panther_analysis_tool check-connection --api-host https://api.papaya-junior.runpanther.net/public/graphql --api-token ADD_TOKEN`
 
 ### Upload Detection
-`panther_analysis_tool upload --api-token ADD_TOKEN --api-host https://api.papaya-junior.runpanther.net/public/graphql`
+`panther_analysis_tool upload --api-host https://api.papaya-junior.runpanther.net/public/graphql --api-token ADD_TOKEN`
 
 # Troubleshooting
 ### panther_analysis_tool not found
