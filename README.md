@@ -9,36 +9,19 @@
 
 `cd cs_training_git`
 
-### Try Commit and pull
-`git commit` 
-
+### Try pull
 `git pull`
 
+### View top 10 lines of file
+`head rules/crowdstrike_rules/crowdstrike_dns_request.yml`
 
-### Change Directory
-`cd cs_training_git` 
-
-### Update Detection
-`vim rules/crowdstrike_rules/crowdstrike_dns_request.py`
-
-### Update Rule ID
+### Update Rule ID and Description
 `vim rules/crowdstrike_rules/crowdstrike_dns_request.yml`
+or
+`open -a TextEdit rules/crowdstrike_rules/crowdstrike_dns_request.yml`
 
-### Add update files to tracking
-`git add .`
-
-### First Commit 
-`git commit -m “my first message”`
 
 # 2nd part
-### Pull latest
-`git pull`
-
-### Update detection
-`vim rules/crowdstrike_rules/crowdstrike_detection_passthrough.yml`
-
-### Second Commit
-`git commit -m “my second message”`
 
 ### Check Connection 
 `panther_analysis_tool check-connection --api-host https://api.papaya-junior.runpanther.net/public/graphql --api-token ADD_TOKEN`
@@ -51,7 +34,7 @@
 If error says `command not found: panther_analysis_tool`
 
 Try using:
-`export PATH="/Users/$LOGNAME/Library/Python/3.9/bin/:$PATH"` 
+`export PATH="/Users/$LOGNAME/Library/Python/3.9/bin:$PATH"` 
 
 ### Upgrading panther_analysis_tool
 `pip install --upgrade panther_analysis_tool`
