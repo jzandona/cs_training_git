@@ -15,7 +15,9 @@
 
 ### Update Rule ID and Description
 `vim rules/crowdstrike_rules/crowdstrike_dns_request.yml`
+
 or
+
 `open -a TextEdit rules/crowdstrike_rules/crowdstrike_dns_request.yml`
 
 
